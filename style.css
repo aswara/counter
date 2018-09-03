@@ -1,0 +1,14 @@
+body {
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 200px;
+}
+
+.kotak {
+    padding: 30px;
+    width: 40%;
+    margin: 100px auto;
+    border: 2px solid black;
+}
