@@ -2,6 +2,8 @@ let tambah = document.getElementById('tambah')
 let kurang = document.getElementById('kurang')
 let angka = document.getElementById('angka')
 //let reset = document.getElementById('reset')
+let kuadrat = document.getElementById('kuadrat');
+
 let nilai = 0
 
 tambah.addEventListener("click", function(){
@@ -17,3 +19,7 @@ kurang.addEventListener("click", function(){
 // })
 
 //I've added the reset function
+
+kuadrat.addEventListener('click', function() {
+    angka.innerHTML = nilai*2;
+})
